@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "displayName": "logo",
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.logo",
+      "required": true
+    },
+    "menu_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-link",
+      "required": true
+    }
+  }
+}
